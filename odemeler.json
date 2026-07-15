@@ -1,0 +1,6 @@
+[
+ {"id":"kdv-odeme","ad":"KDV Ödemesi","kategori":"KDV","tarih":"2026-07-28","tur":"odeme","aciklama":"Haziran dönemi KDV ödemesi"},
+ {"id":"muhtasar-odeme","ad":"Muhtasar Vergi Ödemesi","kategori":"Muhtasar","tarih":"2026-07-27","tur":"odeme","aciklama":"Haziran dönemi ödeme"},
+ {"id":"sgk-odeme","ad":"SGK Prim Ödemesi","kategori":"SGK","tarih":"2026-07-31","tur":"odeme","aciklama":"Haziran dönemi primleri"},
+ {"id":"gecici-odeme","ad":"Geçici Vergi Ödemesi","kategori":"Geçici Vergi","tarih":"2026-08-17","tur":"odeme","aciklama":"2. dönem ödeme"}
+]

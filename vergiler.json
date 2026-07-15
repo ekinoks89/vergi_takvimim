@@ -1,0 +1,8 @@
+[
+ {"id":"kdv-temmuz","ad":"KDV Beyannamesi","kategori":"KDV","tarih":"2026-07-28","tur":"beyan","aciklama":"Haziran dönemi KDV beyannamesi"},
+ {"id":"muhtasar-temmuz","ad":"Muhtasar ve Prim Hizmet Beyannamesi","kategori":"Muhtasar","tarih":"2026-07-27","tur":"beyan","aciklama":"Haziran dönemi"},
+ {"id":"damga-temmuz","ad":"Damga Vergisi Beyannamesi","kategori":"Damga","tarih":"2026-07-27","tur":"beyan","aciklama":"Haziran dönemi"},
+ {"id":"gecici-2","ad":"Geçici Vergi Beyannamesi","kategori":"Geçici Vergi","tarih":"2026-08-17","tur":"beyan","aciklama":"2. geçici vergi dönemi"},
+ {"id":"kurumlar","ad":"Kurumlar Vergisi Beyannamesi","kategori":"Kurumlar","tarih":"2026-04-30","tur":"beyan","aciklama":"Yıllık kurumlar vergisi"},
+ {"id":"gelir","ad":"Gelir Vergisi Beyannamesi","kategori":"Gelir","tarih":"2026-03-31","tur":"beyan","aciklama":"Yıllık gelir vergisi"}
+]

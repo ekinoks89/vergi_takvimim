@@ -1,16 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vergi Takvimim</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1463d9"><meta name="description" content="Vergi ve e-Defter süreçlerinizi tek ekrandan takip edin.">
+  <link rel="manifest" href="manifest.json"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><title>Vergi Takvimim</title>
 </head>
 <body>
-
-<h1>📅 Vergi Takvimim</h1>
-
-<p>İlk sürüm başarıyla oluşturuldu.</p>
-
-</body>
-</html>
+<main class="uygulama" aria-live="polite">
+  <header class="ustbar"><div><p class="kucuk">Hoş geldiniz</p><h1 id="sayfa-baslik">Vergi Takvimim</h1></div><button id="tema-dugmesi" class="yuvarlak-dugme" aria-label="Temayı değiştir">◐</button></header>
+  <section id="icerik" class="icerik"></section>
+  <nav class="alt-menu" aria-label="Ana menü">
+    <button data-sayfa="ana" class="secili"><span>⌂</span>Ana Sayfa</button><button data-sayfa="yaklasan"><span>◷</span>Yaklaşanlar</button><button data-sayfa="takvim"><span>▦</span>Takvim</button><button data-sayfa="odemeler"><span>₺</span>Ödemeler</button><button data-sayfa="ayarlar"><span>⚙</span>Ayarlar</button>
+  </nav>
+</main>
+<div id="modal-katmani"></div>
+<div id="bildirim" role="status"></div>
+<script src="app.js" defer></script>
+</body></html>
